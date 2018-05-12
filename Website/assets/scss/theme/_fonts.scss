@@ -1,0 +1,39 @@
+// OpenSans From
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+$font-path: '../fonts' !default;
+
+// Bebas-neue-Bold
+
+@font-face {
+	font-family: 'bebas-neue-bold';
+	src: url('#{$font-path}/bebas-neue-bold.eot');
+	src: local('☺'), 
+		url('#{$font-path}/bebas-neue-bold.woff') format('woff'),
+	 	url('#{$font-path}/bebas-neue-bold.ttf') format('truetype'),
+	 	url('#{$font-path}/bebas-neue-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// Bebas-neue-Regular
+@font-face {
+	font-family: 'bebas-neue-regular';
+	src: url('#{$font-path}/bebas-neue-regular.eot');
+	src: local('☺'),
+		 url('#{$font-path}/bebas-neue-regular.woff') format('woff'),
+		 url('#{$font-path}/bebas-neue-regular.ttf') format('truetype'),
+		 url('#{$font-path}/bebas-neue-regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+$font-open: 				'Open Sans', sans-serif;
+
+$font-bebas:				'bebas-neue-regular', sans-serif;
+
+$font-bebas-b:  		    'bebas-neue-bold', sans-serif;
+
+
